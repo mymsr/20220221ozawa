@@ -1,8 +1,8 @@
 /*ヘッダー*/
-body{
+body {
   max-width: 1500px;
 }
-.header-list{
+.header-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,56 +10,87 @@ body{
   padding: 0 30px;
   margin: 20px 0;
 }
-.list-nav{
+.list-nav {
   list-style: none;
   display: flex;
 }
-.list-nav li{
+.list-nav li {
   color: #a9a9a9;
   margin-right: 30px;
 }
-.logo{
+.logo {
   height: 30px;
 }
-.logo img{
+.logo img {
   height: 100%;
 }
 
 /* メイン*/
-.wrapper{
+.wrapper {
   position: relative;
 }
-.wrapper-title{
+.wrapper-title {
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 350px;
   width: 700px;
 }
-.wrapper-title h1,p{
+.wrapper-title h1,
+p {
   color: #c71585;
 }
-span{
-  color:#20b2aa ;
+.note3{
+  color: #20b2aa;
 }
 
-.wrapper-title h1{
+.wrapper-title h1 {
   font-size: 40px;
   line-height: 80px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
-.note1{
+.note1 {
   margin-top: 30px;
 }
-.note2{
+.note2 {
   font-size: 10px;
   color: #a9a9a9;
   margin-top: 10px;
 }
-.image-first{
-  width: 900px;
-  position: absolute;
-  right: 0;
+.image-first {
+  display: flex;
+  justify-content: flex-end;
 }
-.reset{
-  position: static;
+.image-first img{
+  max-width: 900px;
+}
+/* 新着情報 */
+.container-news{
+  width: 60%;
+  margin: 50px 0;
+}
+.news-list{
+  padding: 30px 0;
+  border-bottom: 2px solid #a9a9a9;
+  border-top: 2px solid #a9a9a9;
+}
+.news1{
+  background-color: #c71585;
+  color: #fff;
+  margin: 0 50px;
+}
+.container-news-text{
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 10px;
+}
+.container-news-text2{
+  margin-bottom: 20px; 
+  color: #696969;
+}
+.news-list th,
+.news-list td{
+  padding: 10px 30px 10px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.news1{
+  border-radius: 10px;
 }
