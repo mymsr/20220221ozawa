@@ -65,8 +65,14 @@ p {
 }
 /* 新着情報 */
 .container-news{
+  width:  100%;
+  position: relative;
+}
+.container-news2{
   width: 60%;
   margin: 50px 0;
+  position: absolute;
+  height: 50%;
 }
 .news-list{
   padding: 30px 0;
