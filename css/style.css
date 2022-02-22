@@ -1,0 +1,65 @@
+/*ヘッダー*/
+body{
+  max-width: 1500px;
+}
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  margin: 20px 0;
+}
+.list-nav{
+  list-style: none;
+  display: flex;
+}
+.list-nav li{
+  color: #a9a9a9;
+  margin-right: 30px;
+}
+.logo{
+  height: 30px;
+}
+.logo img{
+  height: 100%;
+}
+
+/* メイン*/
+.wrapper{
+  position: relative;
+}
+.wrapper-title{
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  width: 700px;
+}
+.wrapper-title h1,p{
+  color: #c71585;
+}
+span{
+  color:#20b2aa ;
+}
+
+.wrapper-title h1{
+  font-size: 40px;
+  line-height: 80px;
+  font-family: 'Indie Flower', cursive;
+}
+.note1{
+  margin-top: 30px;
+}
+.note2{
+  font-size: 10px;
+  color: #a9a9a9;
+  margin-top: 10px;
+}
+.image-first{
+  width: 900px;
+  position: absolute;
+  right: 0;
+}
+.reset{
+  position: static;
+}
