@@ -37,7 +37,7 @@ body {
 }
 .wrapper-title h1,
 p {
-  color: #c71585;
+  color: #8d1a4a;
 }
 .note3{
   color: #20b2aa;
@@ -61,36 +61,40 @@ p {
   justify-content: flex-end;
 }
 .image-first img{
-  max-width: 900px;
+  width: 900px;
 }
+
 /* 新着情報 */
 .container-news{
   width:  100%;
-  position: relative;
+  
 }
 .container-news2{
   width: 60%;
-  margin: 50px 0;
-  position: absolute;
-  height: 50%;
+  margin: 0 auto;
+  
 }
 .news-list{
   padding: 30px 0;
   border-bottom: 2px solid #a9a9a9;
   border-top: 2px solid #a9a9a9;
+  width: 100%;
+  margin-bottom: 100px;
 }
 .news1{
-  background-color: #c71585;
+  background-color: #8d1a4a;
   color: #fff;
   margin: 0 50px;
 }
 .container-news-text{
   font-family: "Indie Flower", cursive;
   margin-bottom: 10px;
+  margin-top: 100px;
 }
 .container-news-text2{
   margin-bottom: 20px; 
   color: #696969;
+  font-weight: bold;
 }
 .news-list th,
 .news-list td{
@@ -99,4 +103,165 @@ p {
 }
 .news1{
   border-radius: 10px;
+}
+
+/* About */
+.container-about{
+  width: 100%;
+  background-color:#f5f5f5;
+}
+.container-about-title{
+  padding: 30px 0;
+}
+.container-about p{
+  text-align: center;
+}
+.about-title{
+  font-family: "Indie Flower", cursive;;
+  padding-bottom: 10px;
+}
+.about-title2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #696969;
+}
+.container-about-image{
+  width: 300px;
+  margin-bottom: 50px;
+}
+.container-about-image img{
+  width: 100%;
+}
+.container-about-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about-space{
+  margin-bottom: 30px;
+}
+.about-text p{
+  color: #696969;
+  line-height: 20px;
+  text-align: left;
+  font-size: 10px;
+}
+.about-box-space{
+  width: 100px;
+}
+
+/* サービス */
+.container-service{
+  width: 640px;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+}
+.service-title{
+  font-family: "Indie Flower", cursive;;
+  padding-bottom: 10px;
+}
+.service-title2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #696969;
+}
+.container-service-title{
+  padding-bottom: 30px;
+}
+.service-box{
+  display: flex;
+  justify-content: center;
+}
+
+/* box1 */
+.service-box1{
+  width: 320px;
+  background-color: #8d1a4a;
+}
+.box1-image{
+  width: auto;
+  text-align: center;
+}
+.box1-image img{
+  width: 40%;
+}
+.box1-text1,
+.box1-text2{
+  text-align: center;
+  color: #fff;
+  padding: 0 30px 10px 30px;
+}
+.box1-text1,
+.box2-text1{
+  font-weight: bold;
+  padding: 10px;
+}
+.box1-text2,
+.box2-text2{
+  font-size: 10px;
+}
+
+/* box2 */
+
+.box2-text1,
+.box2-text2{
+  color: #fff;
+}
+.box2-ul{
+  width: 320px;
+  
+}
+.box2-image{
+  text-align: center;
+}
+.box2-image img{
+  width: 80%;
+}
+.box2-li{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color : #a8516e;
+}
+.box2-li2{
+  background-color: #b9909e;
+}
+
+/* blog */
+.container-blog{
+  background-color:#f5f5f5;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.card{
+  width: 300px;
+  position: relative;
+  border-radius: 3px;
+}
+.card-img img{
+  width: 100%;
+}
+.card-title{
+  background-color: #8d1a4a;
+  color: #fff;
+  padding: 10px;
+  width: 40px;
+  position: absolute;
+  top: 0;
+}
+.date{
+  display: inline-block;
+  margin-left: 30px;
+}
+.tag{
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.text-box{
+text-align: start;
+background-color: #fff;
+}
+.card-text{
+  text-align: center;
+  padding: 20px 30px 30px 30px;
 }
